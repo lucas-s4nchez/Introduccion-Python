@@ -11,13 +11,7 @@ print(type(False))
 
 ### String => str ###
 print(type('Soy un string'))
-#Los strings tienen indexacion. Cada caracter del string tiene asignado un indice, comienza desde 0.
-nombre = 'Lucas'
-print(nombre[0])
-print(nombre[1])
-print(nombre[2])
-print(nombre[3])
-print(nombre[4])
+
 
 ### List ###
 numeros=[10,20,30,40]
