@@ -26,3 +26,11 @@ print(myString.endswith('ndo'))#Saber si el string termina con cierto caracter o
 print(myString.split('u'))#Separa el string en base a un caracter (por defecto si no pasas argumento separa por un espacio en blanco)
 print(myString.find('u'))#Devuelve el indice del caracter que pasas como argumento
 print(len(myString))#Saber la longitud del string
+print(myString.index('o'))#Devuelve el indice del caracter que pasas como argumento (igual al find)
+print(myString.isnumeric()) #saber si solo tiene caracteres numericos
+print(myString.isalnum()) #saber si solo tiene caracteres alfanumericos
+print(myString.isalpha()) #saber si solo tiene caracteres alfabeticos
+print(myString.isdecimal()) #saber si solo tiene caracteres decimales
+print(myString.isdigit()) #saber si solo tiene  digitos
+print(myString.islower()) #saber si esta en minúsculas
+print(myString.isupper())#saber si esta en mayúsculas
