@@ -1,6 +1,6 @@
-#Una lista contiene multiples elementos
+#Una lista contiene multiples elementos, y es mutable, es decir puede modificarse.
 
-#Y puede contener datos de todo tipo, incluso otras listas.
+#Puede contener datos de todo tipo, incluso otras listas.
 
 lista_demo =[23,'edad',True,[1,2,3]]
 
