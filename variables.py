@@ -21,3 +21,17 @@ EDAD= 30
 print(edad)
 print(Edad)
 print(EDAD)
+
+#Una manera de declarar variables en una sola linea
+nombre, apellido = 'Lucas', 'Sanchez'
+print(nombre, apellido)
+
+#Convensiones para escribir variables:
+snake_case = "snake case"
+camelCase= 'camel case'
+PascalCase= 'pascal case'
+#en python es comun utilizar snake case
+
+#En constantes es una convencion escribirlas en mayúsculas
+PI = 3.1416
+print(PI)
