@@ -1,11 +1,16 @@
 myString = "Hola Mundo"
 #Los strings tienen indexacion. Cada caracter del string tiene asignado un indice, comienza desde 0.
-
+#Se pueden acceder a los caracteres del string con el indice entre []
 print(myString[0])
 print(myString[1])
 print(myString[2])
 print(myString[3])
-print(myString[4])
+#tambien si ponemos indices negativos comienza del final al inicio
+print(myString[-1])
+print(myString[-2])
+print(myString[-3])
+print(myString[-4])
+print(myString[-5])
 #Tambien se pueden cortar partes de un string, selecionando el inicio y el final con los indices, el caracter del final no estará incluido en el nuevo string
 print(myString[2:8]) #del 2 al 8
 print(myString[2:]) # del 2 hasta el ultimo
@@ -15,6 +20,9 @@ print(myString[2:8:2]) # del 2 al 8 con paso 2 (de 2 en 2)
 
 ##Conocer algunos metodos de string
 #print(dir(myString))
+print(f"¡{myString}!") #concatenar
+print("¿"+myString+"?") #concatenar
+print("{0}!!!".format(myString)) #concatenar
 print(myString.upper()) #todo a mayúsculas
 print(myString.lower()) #todo a minúsculas
 print(myString.swapcase()) #cambia las mayusculas a minusculas y viceversa
