@@ -1,3 +1,13 @@
+#El scope de las variables (ambito donde son accesibles) en python puede ser global o local.
+#las variables globales son accesibles desde cualquier parte del codigo, las locales solo son accesibles dentro de la funcion donde fueron definidas.
+
+var_global='soy una variable global'
+def mi_funcion():
+  var_local= 'soy una variable local'
+  print(var_global)#si se puede porque es accesible en todo el código (scope global)
+
+#print(var_local) #no se puede porque solo es accesible dentro de la funcion donde fue definida (scope local)
+
 #Declarar varaibles en python
 num = 5 
 print(num)
