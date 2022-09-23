@@ -23,3 +23,7 @@ print(tupla_numeros.index(20))
 
 #saber cuantas veces se repite un valor en una tupla
 print(tupla_numeros.count(40))
+
+#eliminar la tupla
+# del tupla_numeros
+print(tupla_numeros)

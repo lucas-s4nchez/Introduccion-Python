@@ -26,6 +26,10 @@ print(colores[2])
 colores[1]='violeta'
 print(colores)
 
+#Eliminar un valor mediante indice
+# del colores[0]
+
+
 ### Algunos metodos de las listas ###
 # Longitud de la lista
 len(colores)
@@ -73,4 +77,8 @@ print(colores.count('rojo'))
 
 #borrar todos los elementos de la lista
 # colores.clear()
+print(colores)
+
+#eliminar la lista
+# del colores
 print(colores)
