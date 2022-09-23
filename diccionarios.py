@@ -9,6 +9,9 @@ persona={
 #Acceder a un elemento de un diccionario
 print(persona["nombre"])
 
+#Añadir un elemento a un diccionario
+persona["direccion"]= "Belgrano 345"
+
 #Reasignar el valor de un elemento de un diccionario
 persona["nombre"]='Emir'
 print(persona)
