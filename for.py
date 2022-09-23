@@ -33,3 +33,17 @@ for valor in valores.values():
 #Ejemplo: iterar a la vez sobre la clave y el valor de cada uno de los elementos del diccionario.
 for k, v in valores.items():
     print('clave=', k, ', valor=', v)
+
+#Break y continue
+
+frutas=['manzana','banana','pera','naranja','mango']
+
+for fruta in frutas:
+  if fruta == 'pera':
+    break #cuando llega a la fruta 'pera' termina la ejecucion del ciclo
+  print(fruta)
+
+for fruta in frutas:
+  if fruta == 'pera':
+    continue #cuando llega a la fruta 'pera' la ignora y continua su ejecucion con las demas frutas
+  print(fruta)
